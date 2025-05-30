@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: blueviolet;
+    background-image: linear-gradient(rgba(255, 165, 0, 0.5), rgba(255, 140, 0, 0.5)), url("myfiles/mel.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    
+}
