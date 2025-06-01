@@ -126,6 +126,7 @@ nav {
     width: 300px;
     height: auto;
     border-radius: 10px;
+    flex-shrink: 0;
     
 }
 .project-text {
@@ -133,4 +134,19 @@ nav {
 }
 .project.reverse  {
     flex-direction: row-reverse;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+@media (max-width: 7668px) {
+    .project {
+        flex-direction: column;
+        text-align: center;
+    }
+    .project img {
+        width: 100%;
+        max-width: 400px;
+    }
 }
