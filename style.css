@@ -150,3 +150,107 @@ nav {
         max-width: 400px;
     }
 }
+.Contact {
+  max-width: 420px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background-color: lavenderblush;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.8);
+  font-family: Tahoma, sans-serif;
+  color: navy;
+  text-align: center;
+}
+
+.Contact h1 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.Contact p {
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.Contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.Contact input[type="text"],
+.Contact input[type="email"],
+.Contact textarea {
+  padding: 14px 18px;
+  border: 1.8px solid ;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  resize: vertical;
+  font-family: inherit;
+  color: darkblue;
+}
+
+.Contact input[type="text"]:focus,
+.Contact input[type="email"]:focus,
+.Contact textarea:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 8px rgba(0, 119, 255, 0.3);
+  outline: none;
+}
+
+.Contact textarea {
+  min-height: 110px;
+}
+
+.Contact button {
+  padding: 14px 20px;
+  background-color: lightskyblue;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.Contact button:hover {
+  background-color: blue;
+}
+footer {
+  background-color: black;
+  color: whitesmoke;
+  padding: 25px 20px;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+}
+
+footer p {
+  margin: 8px 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  gap: 60px; 
+  margin: 15px 0;
+  flex-wrap: wrap;
+}
+
+footer a {
+  color: skyblue;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: blue;
+}
