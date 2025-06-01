@@ -5,27 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melanie Akinyi</title>
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
+    <div class="overlay">
+        
+    </div>
     <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contacts">Contact Me</a>
+        <div>
+            <img id="logo" width="30px"  src="./myfiles/mel.jpg" alt="logo">
+        </div>
+        <div id="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contact Me </a>
+        </div>
+        
     </nav>
     <section class="hero">
         <div class="content">
-            <p>I am Melanie, a software engineer</p>
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c29mdHdhcmUlMjBkZXZlbG9wbWVudHxlbnwwfHwwfHx8MA%3D%3D" alt="first slide image">
+                <p>I am working to briing great ideas to life and improve livelihood, one bug at a time</p>
+            </div>
+            <div class="slide">
+                <img src="https://plus.unsplash.com/premium_photo-1682141013747-5aed8665c154?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNvZnR3YXJlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D" alt="team  work">
+                <p>I thrive when working in teams.No man can is an island, right!</p>
+            </div>
+            <div class="slide">
+                <img src="https://media.istockphoto.com/id/2175850124/photo/multi-ethnic-group-of-students-engaged-in-stem-coding-lecture-with-instructor-presenting.webp?a=1&b=1&s=612x612&w=0&k=20&c=1_NScdC9Jl3UT5UJEp440prYfalgycaRTPIPdmaONdk=" alt="leadership">
+                <p>I consider myself a great leader capable   of leading teams to achieve their greatest potential. </p>
+            </div>
         </div>
     </section>
+    <script src="index.js"></script>
     <section>
         <h1>About Me </h1>
         <div  class="about">
-            <div class="about-img">
-               <img src="/myfiles/lante.jpg" alt="Melanie">
-            
-            </div>
+           <div class="about-img">
+            <img src="./myfiles/lante.jpg" alt="">
+           </div>
             <div class="text">
                 <p>
                    Hey I am Melanie Akinyi. I am a software engineer, creative thinker and someone who believes in building tools that make life better. I started out curious about how technology works and that curiosity quickly turned intoa deeppassion for creating. Ftom clean  interfaces to solving real problems in communities. I have become the type of developer  who does not just write code, I BUILD WWITH PURPOSE. When I am not coding, you will find me exploring design ideas, journaling or dreaming up the next big thing that could help someone out there. I am especially passionate about tech that serves underrepresentedvoices and makes systems more accessible in Africa and beyyond. I am currently on a path to not only grow as a dev, but also as a changemaker, and this site is just a peek into that journey.
@@ -74,7 +94,24 @@
     </section>
     <section>
         <h1>Contact Me</h1>
+        <p>Incase of any inquiries </p>
+        <form>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Surname" required>
+            <input type="email" placeholder="email" required>
+            <textarea placeholder="Your message"  required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
+    <footer>
+        <p>Let's connect</p>
+        <div>
+            <a href="mailto:kleinmelanie04@gmail.com">Email</a>
+            <a href="https://github.com/Melanielante">github</a>
+            <a href="https://www.linkedin.com/in/melanie-akinyi-44ab07234/">linkedIn</a>
+        </div>
+        <p>&copy; 2025 MEL. All  rights reserved.</p>
+    </footer>
     
 </body>
 </html>
